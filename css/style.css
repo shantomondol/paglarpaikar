@@ -773,6 +773,12 @@ ul.nav.tabs {
 .offer-img {
     position: relative;
     display: block;
+    text-decoration: none;
+}
+
+.offer-img:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .offer-img img {
@@ -798,9 +804,9 @@ ul.nav.tabs {
     padding: 7px;
 }
 
-.offer span {
+.offer {
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     display: inline-block;
     font-weight: bold;
