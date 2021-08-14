@@ -109,7 +109,7 @@ function categoryTemplate(category) {
                     </div>
                     <div class="col-md-3 pro-1">
                         <div class="col-m">
-                            <a href="#" data-toggle="modal" class="offer-img">
+                            <a href="../index2.html" data-toggle="modal" class="offer-img">
                                 <img src="images/personal-care.png" class="img-responsive" alt="">
                             </a>
                             <div class="mid-1">
