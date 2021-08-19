@@ -19,6 +19,10 @@
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 
+
+
+
+
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -55,8 +59,8 @@
         <div class="tab-head ">
             <nav class="nav-sidebar">
                 <ul class="nav tabs ">
-                    <li class="active"><a href="#tab1" data-toggle="tab">অফার</a></li>
-                    <li class="#"><a href="#tab2" data-toggle="tab">পন্যের বিভাগসমুহ</a></li>
+                    <li class="#"><a href="#tab1" data-toggle="tab">অফার</a></li>
+                    <li class="active"><a href="#tab2" data-toggle="tab">পন্যের বিভাগসমুহ</a></li>
                 </ul>
             </nav>
 
@@ -66,110 +70,32 @@
             <!-----------------------------------------------------------
                                 	Offer product list
         	---------------	--------------------------------------------->
-            <div class="tab-pane active text-style" id="tab1">
+
+            <div class="tab-pane text-style" id="tab1">
                 <div class=" con-w3l">
-
-
-                    <div class="col-md-3 pro-1">
-                        <div class="col-m">
-                            <a href="#" class="offer-img">
-                                <img src="images/of7.png" class="img-responsive" alt="">
-                                <div class="offer">
-                                    <p>Offer</p>
-                                </div>
-                                <div class="mid-1">
-                                    <h6>>Nuts(250 g)</h6>
-                                    <div class="mid-2">
-                                        <p><label>$4.00</label><em class="item_price">$3.50</em></p>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="add">
-                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 pro-1">
-                        <div class="col-m">
-                            <a href="#" class="offer-img">
-                                <img src="images/of7.png" class="img-responsive" alt="">
-                                <div class="offer">
-                                    <p>Offer</p>
-                                </div>
-                                <div class="mid-1">
-                                    <h6>>Nuts(250 g)</h6>
-                                    <div class="mid-2">
-                                        <p><label>$4.00</label><em class="item_price">$3.50</em></p>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="add">
-                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 pro-1">
-                        <div class="col-m">
-                            <a href="#" class="offer-img">
-                                <img src="images/of7.png" class="img-responsive" alt="">
-                                <div class="offer">
-                                    <p>Offer</p>
-                                </div>
-                                <div class="mid-1">
-                                    <h6>>Nuts(250 g)</h6>
-                                    <div class="mid-2">
-                                        <p><label>$4.00</label><em class="item_price">$3.50</em></p>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="add">
-                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 pro-1">
-                        <div class="col-m">
-                            <a href="#" class="offer-img">
-                                <img src="images/of7.png" class="img-responsive" alt="">
-                                <div class="offer">
-                                    <p>Offer</p>
-                                </div>
-                                <div class="mid-1">
-                                    <h6>>Nuts(250 g)</h6>
-                                    <div class="mid-2">
-                                        <p><label>$4.00</label><em class="item_price">$3.50</em></p>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="add">
-                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-
-
+                    <div id="offerProduct"></div>
+                    <script src="components/offerList.js"></script>
+                    <script src="components/offerProduct.js"></script>
                 </div>
             </div>
+
+
 
 
             <!-----------------------------------------------------------
                                    main product list
         	---------------	--------------------------------------------->
-            <div class="tab-pane text-style" id="tab2">
-                <div id="category"></div>
-            </div>
-            <script src="components/category.js"></script>
-
+            <div class="tab-pane active text-style" id="tab2">
+               
+                    <div id="productCategory"></div>
+                    <script src="components/productName.js"></script>
+                    <script src="components/productCategory.js"></script>               
+            </div>           
 
         </div>
     </div>
+
+    
     <footer>
         <br><br>
     </footer>
@@ -183,6 +109,10 @@
     <script src="js/bootstrap.js"></script>
     <script type='text/javascript' src="js/jquery.mycart.js"></script>
     <script src="js/script.js"></script>
+
+
+
+
 
 
 </body>

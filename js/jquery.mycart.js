@@ -1,9 +1,3 @@
-/*
-* jQuery myCart - v1.0 - 2016-04-21
-* http://asraf-uddin-ahmed.github.io/
-* Copyright (c) 2016 Asraf Uddin Ahmed; Licensed None
-*/
-
 (function ($) {
 
   "use strict";
@@ -211,9 +205,9 @@
           '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
           '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
           '<td>' + this.name + '</td>' +
-          '<td title="Unit Price">$' + this.price + '</td>' +
+          '<td title="Unit Price">৳' + this.price + '</td>' +
           '<td title="Quantity"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-          '<td title="Total" class="' + classProductTotal + '">$' + total + '</td>' +
+          '<td title="Total" class="' + classProductTotal + '">৳' + total + '</td>' +
           '<td title="Remove from Cart" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
           '</tr>'
         );
@@ -231,19 +225,19 @@
         : '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">Your cart is empty</div>'
       );
 
-      var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
-      if(products.length && discountPrice !== null) {
-        $cartTable.append(
-          '<tr style="color: red">' +
-          '<td></td>' +
-          '<td><strong>Total (including discount)</strong></td>' +
-          '<td></td>' +
-          '<td></td>' +
-          '<td><strong id="' + idDiscountPrice + '">$</strong></td>' +
-          '<td></td>' +
-          '</tr>'
-        );
-      }
+      // var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+      // if(products.length && discountPrice !== null) {
+      //   $cartTable.append(
+      //     '<tr style="color: red">' +
+      //     '<td></td>' +
+      //     '<td><strong>Total (including discount)</strong></td>' +
+      //     '<td title="Unit Price">10</td>' +
+      //     '<td></td>' +
+      //     '<td><strong id="' + idDiscountPrice + '">$</strong></td>' +
+      //     '<td></td>' +
+      //     '</tr>'
+      //   );
+      // }
 
       showGrandTotal();
       showDiscountPrice();
@@ -259,10 +253,14 @@
       });
     }
     var showGrandTotal = function(){
-      $("#" + idGrandTotal).text("$" + ProductManager.getTotalPrice());
+
+      // money sign change
+      $("#" + idGrandTotal).text("৳" + ProductManager.getTotalPrice());
     }
     var showDiscountPrice = function(){
-      $("#" + idDiscountPrice).text("$" + options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()));
+
+      // money sign change
+      $("#" + idDiscountPrice).text("৳" + options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()));
     }
 
     /*
@@ -289,7 +287,7 @@
       var id = $(this).closest("tr").data("id");
       var quantity = $(this).val();
 
-      $(this).parent("td").next("." + classProductTotal).text("$" + price * quantity);
+      $(this).parent("td").next("." + classProductTotal).text("৳" + price * quantity);
       ProductManager.updatePoduct(id, quantity);
 
       $cartBadge.text(ProductManager.getTotalQuantity());
