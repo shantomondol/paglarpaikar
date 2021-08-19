@@ -17,7 +17,6 @@ function navTemplate(nav) {
         <!--navbar-->
         <div class="nav-top">
             <nav class="navbar navbar-default">
-
                 <div class="navbar-header nav_2">
                     <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
                         <span class="sr-only">Toggle navigation</span>
@@ -29,22 +28,28 @@ function navTemplate(nav) {
 
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav ">
-                        <li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>
-
-                        <li>
+                        <li class=" active"><a href="index.html" class="hyper"><span>Home</span></a></li><li>
                             <a href="#" class="hyper"> <span>Abut</span></a>
-                        </li>
+                        </li>                        
                         <li><a href="#" class="hyper"><span>Contact Us</span></a></li>
                     </ul>
                 </div>
             </nav>
             <div class="cart">
-
                 <span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
+
+    <!-- card or video -->
+    <div data-vide-bg="video/video">
+        <div class="container">
+            <div class="banner-info">
+                <h3>"ঘরে বসে সাশ্রয়ে বাজার, সাথে আছে পাগলার পাইকার"</h3>
+            </div>
+        </div>
+    </div>    
 `;
 }
 

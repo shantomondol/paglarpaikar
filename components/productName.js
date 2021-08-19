@@ -3,7 +3,7 @@ const productCategoryData = [
         id: 1,
         photo: "../images/chal-dal.png",
         name: "চাল-ডাল",
-        link: "indo.html"
+        link: "chal-dal.html"
     },
     {        
         id: 2,

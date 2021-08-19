@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ঘরে বসে সাশ্রয়ে বাজার, সাথে আছে পাগলার পাইকার">
+    <meta name="keywords" content="Paglar Paikar, পাগলার পাইকার, Grocers Shop, Supermarket, Convenience Store, paglarpaikar">
+    <meta name="author" content="Shanto Mondol">
+
+    <title>Paglar Paikar - পাগলার পাইকার | "ঘরে বসে সাশ্রয়ে বাজার, সাথে আছে পাগলার পাইকার"</title>
+    <link rel="icon" href="images/favicon.png" type="image/gif">
+
+
+
+    <!-- font cdn -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div id="nav" class="header"></div>
+    <script src="components/nav.js"></script>
+
+
+    <!--product list-->
+    <div class="container content-top">
+        <div class="spec ">
+            <h3>আমাদের পণ্যের তালিকা</h3>
+            <div class="ser-t">
+                <b></b>
+                <span><i></i></span>
+            </div>
+        </div>
+        <div class="tab-head ">
+            <nav class="nav-sidebar">
+                <ul class="nav tabs ">
+                    <li class="#"><a href="#tab1" data-toggle="tab">অফার</a></li>
+                    <li class="active"><a href="#tab2" data-toggle="tab">চাল-ডাল</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class=" tab-content tab-content-t ">
+            <!-----------------------------------------------------------
+                                	Offer product list
+        	---------------	--------------------------------------------->
+
+            <div class="tab-pane text-style" id="tab1">
+                <div class=" con-w3l">
+                    <div id="offerProduct"></div>
+                    <script src="components/offerList.js"></script>
+                    <script src="components/offerProduct.js"></script>
+                </div>
+            </div>
+
+
+
+
+            <!-----------------------------------------------------------
+                                   main product list
+        	---------------	--------------------------------------------->
+            <div class="tab-pane active text-style" id="tab2">
+                <div id="product"></div>
+                <script src="product-list/chal-dal.js"></script>
+                <script src="components/product.js"></script>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <br><br>
+    </footer>
+
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type='text/javascript' src="js/jquery.mycart.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
