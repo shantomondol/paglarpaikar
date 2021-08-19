@@ -555,39 +555,6 @@ span.fa.fa-shopping-cart.my-cart-icon {
     margin: 0 auto 1em;
 }
 
-.search-form {
-    width: 55%;
-    margin: 0 auto;
-}
-
-.search-form input[type='text'] {
-    width: 93%;
-    padding: 10px;
-    outline: none;
-    font-size: 1em;
-    color: #fff;
-    border: 1px solid #FFF;
-    background: rgba(255, 255, 255, 0.45);
-}
-
-.search-form input[type='submit'] {
-    width: 40px;
-    height: 41px;
-    outline: none;
-    border: 1px solid #fff;
-    background: url(../images/can.png) no-repeat 6px 7px #FCCD1E;
-    display: inline-block;
-}
-
-.search-form input[type='submit']:hover {
-    background: url(../images/can.png) no-repeat 6px 7px #039445;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-
  ::-webkit-input-placeholder {
     color: #fff;
 }
