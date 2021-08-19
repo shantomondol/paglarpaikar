@@ -4,7 +4,7 @@ function offerProductTemplate(offerProduct) {
             <div class=" con-w3l">
                 <div class="col-md-3 pro-1">
                     <div class="col-m">
-                        <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                        <a href="#" class="offer-img">
                             <img src="${offerProduct.photo}" class="img-responsive" alt="${offerProduct.name}">
                             <div class="offer">
                                 <p>Offer</p>

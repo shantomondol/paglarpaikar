@@ -4,13 +4,13 @@ function productCategoryTemplate(productCategory) {
             <div class=" con-w3l">
                 <div class="col-md-3 pro-1">
                     <div class="col-m">
-                        <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
-                            <img src="${productCategory.photo}" class="img-responsive" alt="">
+                        <a href="${productCategory.link}" class="offer-img">
+                            <img src="${productCategory.photo}" class="img-responsive" alt="${productCategory.name}">
+                        </a>
                        
                             <div class="mid-1">                                
                                     <h6>${productCategory.name}</h6>                              
                             </div>
-                        </a>
                     </div>
                 </div>               
                 <div id="${productCategory.id}"></div>
