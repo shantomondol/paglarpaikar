@@ -682,8 +682,8 @@ ul.nav.tabs {
 /*----*/
 
 .mid-1 h6 {
-    font-size: 1.2em;
-    
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .mid-1 h6::hover {
@@ -695,23 +695,21 @@ ul.nav.tabs {
     text-decoration: none;
 }
 
-.mid-1 h6 a:hover {
-    color: #FAB005;
-}
 
 .mid-2 p {
     float: left;
-    color: #B4B4B4;
+    color: #000000;
 }
 
 .mid-2 p em {
     font-style: normal;
-    font-size: 1.4em;   
+    font-size: 1.4em;
+    font-weight: 1000;
 }
 
 .mid-2 p label {
     text-decoration: line-through;
-    font-weight: 400;
+    font-weight: normal;
     margin-right: 6px;
     font-size: 1.4em;
 }
@@ -750,7 +748,8 @@ ul.nav.tabs {
 
 .offer-img img {
     margin: 0 auto;
-    width: 55%;
+    width: 150px;
+    height: 160px;
 }
 
 .offer {
@@ -3194,14 +3193,15 @@ span.last {
         margin-bottom: 2em;
     }
     .mid-1 h6 {
-        font-size: 1em;
+        font-size: 1.0em !important;
     }
     .m-w3ls,
     .m-w3ls1 {
         width: 85%;
     }
     .offer-img img {
-        width: 75%;
+        width: 150px;
+        height: 150px;
     }
     .product {
         padding: 4em 0 2em;

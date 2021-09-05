@@ -315,7 +315,7 @@
     $("." + classCheckoutCart).click(function(){
       var products = ProductManager.getAllProducts();
       if(!products.length) {
-        $("#" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
+        $("" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
         return ;
       }
       updateCart();
