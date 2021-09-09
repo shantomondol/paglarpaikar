@@ -1,9 +1,9 @@
 const productData = [
     {        
         id: 1,
-        photo: "images/oil.png",
-        name: "তেল",
-        storePrice: "972",
-        ourPrice: "972"
+        photo: "images/oil/teer-soyabean-oil-5-ltr.jpg",
+        name: "তীর সয়াবিন তেল",
+        storePrice: "৳৭২১",
+        ourPrice: "৳৬৯০"
     }
 ];
