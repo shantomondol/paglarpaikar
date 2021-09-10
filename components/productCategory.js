@@ -73,11 +73,12 @@ function productCategoryTemplate(productCategory) {
                 <div class="col-m">
                     <a href="${productCategory.link}" class="offer-img">
                         <img src="${productCategory.photo}" class="img-responsive" alt="${productCategory.name}">
-                    </a>
+                   
                     
                         <div class="mid-1">                                
                                 <h6>${productCategory.name}</h6>                              
                         </div>
+                    </a>
                 </div>
             </div>               
             <div id="${productCategory.id}"></div>
