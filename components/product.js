@@ -15,10 +15,11 @@ function productTemplate(product) {
                                 </div>
                             </div>                       
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="${product.name}" data-summary="summary 8" data-price="${product.ourPrice}" data-quantity="1" data-image="${product.photo}">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="${product.id}" data-name="${product.name}" data-summary="summary ${product.id}" data-price="${product.ourPrice}" data-quantity="1" data-image="${product.photo}">Add to Cart</button>
                         </div>
                     </div>
                 </div>
+                <div id="${product.id}"></div>
             </div>
         </div>
     `;

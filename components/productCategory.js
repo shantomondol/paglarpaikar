@@ -62,9 +62,6 @@ const productCategorysData = [
 ];
 
 
-
-
-
 function productCategoryTemplate(productCategory) {
     return `
     <div class="active tab-pane text-center text-style" id="tab2">
@@ -76,7 +73,7 @@ function productCategoryTemplate(productCategory) {
                    
                     
                         <div class="mid-1">                                
-                                <h6>${productCategory.name}</h6>                              
+                            <h6>${productCategory.name}</h6>                              
                         </div>
                     </a>
                 </div>
