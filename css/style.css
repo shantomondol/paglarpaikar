@@ -713,6 +713,9 @@ ul.nav.tabs {
 .mid-1 {
     padding: 3em 0 0;
 }
+.add {
+    text-align: center;
+}
 
 .block {
     float: right;
