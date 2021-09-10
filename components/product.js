@@ -10,7 +10,7 @@ function productTemplate(product) {
                             <div class="mid-1">
                                 <h6>${product.name}</h6>
                                 <div class="mid-2">
-                                    <p><label>${product.storePrice}</label><em class="item_price">${product.ourPrice}</em></p>
+                                    <p><label>৳${product.storePrice}</label><em class="item_price">৳${product.ourPrice}</em></p>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>                       
@@ -19,7 +19,6 @@ function productTemplate(product) {
                         </div>
                     </div>
                 </div>
-                <div id="${product.id}"></div>
             </div>
         </div>
     `;

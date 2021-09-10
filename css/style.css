@@ -684,15 +684,7 @@ ul.nav.tabs {
 .mid-1 h6 {
     font-size: 1.4em;
     margin-bottom: 10px;
-}
-
-.mid-1 h6::hover {
-    text-decoration: none;
-}
-
-.mid-1 h6 a {
-    color: #000000;
-    text-decoration: none;
+    display: block;
 }
 
 
@@ -724,10 +716,6 @@ ul.nav.tabs {
 
 .block {
     float: right;
-}
-
-.add {
-    text-align: center;
 }
 
 .col-m {
@@ -1162,7 +1150,7 @@ ul.product-qty {
 }
 
 .pro-1 {
-    margin-bottom: 2em;
+    margin-bottom: 2em;    
 }
 
 
