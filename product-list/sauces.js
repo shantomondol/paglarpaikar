@@ -48,6 +48,12 @@ const productData = [
         ourPrice: "275"
     },
     {
+        photo: "images/sauces/pran-hot-tomato-sauce-mini-10-pcs.jpg",
+        name: "প্রান হট টমেটো সস মিনি ১০ টি",
+        storePrice: "30",
+        ourPrice: "25"
+    },
+    {
         photo: "images/sauces/pran-hot-tomato-sauce-295-gm.jpg",
         name: "প্রান হট টমেটো সস ২৯৫ গ্রাম",
         storePrice: "80",
@@ -72,15 +78,15 @@ const productData = [
         ourPrice: "80"
     },
     {
-        photo: "images/sauces/pran-green-chilli-sauce-340gm.jpg",
-        name: "প্রাণ গ্রীন চিলি সস ৩৪০ গ্রাম",
-        storePrice: "80",
-        ourPrice: "72"
-    },
-    {
         photo: "images/sauces/lobster-sauce-285 ml.jpg",
         name: "গলদা চিংড়ি মাছের সস ২৮৫ মিলি",
         storePrice: "200",
         ourPrice: "160"
+    },
+    {
+        photo: "images/sauces/pran-green-chilli-sauce-340gm.jpg",
+        name: "প্রাণ গ্রীন চিলি সস ৩৪০ গ্রাম",
+        storePrice: "80",
+        ourPrice: "72"
     }
 ];
