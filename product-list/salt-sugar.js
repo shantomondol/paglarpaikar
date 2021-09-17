@@ -12,7 +12,7 @@ const productData = [
         ourPrice: "15"
     },
     {
-        photo: "images/salt-sugar/chini-khola.jpg",
+        photo: "images/salt-sugar/molla-super-salt.jpg",
         name: "মোল্লা সুপার লবণ ১ কেজি",
         storePrice: "38",
         ourPrice: "28"
