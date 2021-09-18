@@ -1,5 +1,5 @@
 const productData = [
-    {
+    {        
         id: 1,
         photo: "images/oil.png",
         name: "তেল",

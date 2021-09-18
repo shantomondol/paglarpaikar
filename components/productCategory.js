@@ -55,9 +55,9 @@ const productCategorysData = [
         link: "pickles.html"
     },
     {
-        photo: "images/personal-care.png",
-        name: "স্বাস্থ্য এবং সৌন্দর্য",
-        link: "personal-care.html"
+        photo: "images/",
+        name: "ওয়াশিং পাউডার",
+        link: "Washing-powder.html"
     }
 ];
 
