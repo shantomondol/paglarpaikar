@@ -57,7 +57,7 @@ const productCategorysData = [
     {
         photo: "images/washing-powder.png",
         name: "ওয়াশিং পাউডার",
-        link: "Washing-powder.html"
+        link: "washing-powder.html"
     }
 ];
 
