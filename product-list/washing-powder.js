@@ -55,7 +55,7 @@ const productData = [
     },
     {
         photo: "images/washing-powder/ray-washing-powder-1-kg.jpg",
-        name: "রে ওয়াশিং পাউডার ১ কেজি",
+        name: "রে ওয়াশিং পাউডার ১ কেজি <br><br>",
         storePrice: "125",
         ourPrice: "115"
     },
